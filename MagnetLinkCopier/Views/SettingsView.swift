@@ -10,17 +10,14 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         NavigationView {
-            VStack {
-                Text("Settings").font(.headline)
-                List {
-                    NavigationLink(destination: LicenseView()) {
-                        Label("License", systemImage: "doc.text")
-                    }
-                    Link(destination: Constants.repoURL) {
-                        Label("Source code", systemImage: "link")
-                    }
+            List {
+                NavigationLink(destination: LicenseView()) {
+                    Label("License", systemImage: "doc.text")
                 }
-            }
+                Link(destination: Constants.repoURL) {
+                    Label("Source code", systemImage: "link")
+                }
+            }.navigationTitle("Settings")
         }
     }
 }

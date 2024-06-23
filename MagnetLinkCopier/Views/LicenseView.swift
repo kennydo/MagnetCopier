@@ -11,12 +11,9 @@ struct LicenseView: View {
     @ObservedObject var model = License()
 
     var body: some View {
-        VStack {
-            Text("License")
-            ScrollView {
-                Text(model.data)
-            }
-        }
+        ScrollView {
+            Text(model.data).padding(10)
+        }.navigationTitle("License")
     }
 }
 

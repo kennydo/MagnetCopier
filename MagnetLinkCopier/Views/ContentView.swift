@@ -17,6 +17,8 @@ struct ContentView: View {
                 Label("Usage Instructions", systemImage: "info.circle")
             ) {
                 Text("Magnet links will automatically open in this app.")
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
+                    .padding(0)
 
                 VStack(alignment: .leading) {
                     Text("Steps")
@@ -30,7 +32,9 @@ struct ContentView: View {
                         .padding(5)
                     Text("3. Copy the link to use it in another app")
                         .padding(5)
-                }.padding(.top, 15)
+                }
+                .padding(.top, 15)
+                .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
             }
 
             Spacer()

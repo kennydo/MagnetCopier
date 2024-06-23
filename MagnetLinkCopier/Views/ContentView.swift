@@ -39,7 +39,7 @@ struct ContentView: View {
 
             Spacer()
         }
-        .padding()
+        .padding(Constants.outerPadding)
     }
 }
 

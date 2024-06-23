@@ -14,5 +14,6 @@ struct MagnetLinkCopierApp: App {
             ContentView()
                 .background(.regularMaterial)
         }
+        .defaultSize(width: 600, height: 400)
     }
 }

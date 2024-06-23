@@ -22,7 +22,6 @@ struct ContentView: View {
                     Text("Home")
                 }
                 .tag(TabIdentifier.home)
-                .padding(Constants.outerPadding)
 
             SettingsView()
                 .tabItem {
@@ -30,7 +29,6 @@ struct ContentView: View {
                     Text("Settings")
                 }
                 .tag(TabIdentifier.settings)
-                .padding(.top, Constants.outerPadding)
         }
         .onOpenURL(perform: { _ in
             // Whenever we open a URL, we want the app to switch to the home tab.

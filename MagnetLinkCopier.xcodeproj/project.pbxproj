@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		816016EA2C27EB2000F1CB01 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 816016E92C27EB2000F1CB01 /* LICENSE */; };
+		816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816016EC2C27F78000F1CB01 /* LinkDetailView.swift */; };
+		816016F12C28090200F1CB01 /* MagnetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816016F02C28090200F1CB01 /* MagnetLink.swift */; };
 		818C37062C27D0F70035282D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37042C27D0F70035282D /* Constants.swift */; };
 		818C370A2C27D69D0035282D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37092C27D69D0035282D /* HomeView.swift */; };
 		818C370C2C27D7370035282D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C370B2C27D7370035282D /* SettingsView.swift */; };
@@ -21,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		816016E92C27EB2000F1CB01 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		816016EB2C27F57C00F1CB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		816016EC2C27F78000F1CB01 /* LinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDetailView.swift; sourceTree = "<group>"; };
+		816016F02C28090200F1CB01 /* MagnetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLink.swift; sourceTree = "<group>"; };
 		818C37042C27D0F70035282D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		818C37092C27D69D0035282D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		818C370B2C27D7370035282D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -50,6 +55,7 @@
 			children = (
 				818C37042C27D0F70035282D /* Constants.swift */,
 				818C37112C27DFDA0035282D /* License.swift */,
+				816016F02C28090200F1CB01 /* MagnetLink.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -73,6 +79,7 @@
 		81C80E452C27ABAF007D44D2 /* MagnetLinkCopier */ = {
 			isa = PBXGroup;
 			children = (
+				816016EB2C27F57C00F1CB01 /* Info.plist */,
 				816016E92C27EB2000F1CB01 /* LICENSE */,
 				818C37052C27D0F70035282D /* Model */,
 				81C80E722C27AED7007D44D2 /* Views */,
@@ -99,6 +106,7 @@
 				818C37092C27D69D0035282D /* HomeView.swift */,
 				818C370B2C27D7370035282D /* SettingsView.swift */,
 				818C370D2C27DE150035282D /* LicenseView.swift */,
+				816016EC2C27F78000F1CB01 /* LinkDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +185,8 @@
 				818C37122C27DFDA0035282D /* License.swift in Sources */,
 				818C370C2C27D7370035282D /* SettingsView.swift in Sources */,
 				81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */,
+				816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */,
+				816016F12C28090200F1CB01 /* MagnetLink.swift in Sources */,
 				818C370A2C27D69D0035282D /* HomeView.swift in Sources */,
 				81C80E472C27ABAF007D44D2 /* MagnetLinkCopierApp.swift in Sources */,
 				818C370E2C27DE150035282D /* LicenseView.swift in Sources */,
@@ -314,6 +324,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagnetLinkCopier/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Link Copier";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -355,6 +366,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagnetLinkCopier/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Link Copier";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

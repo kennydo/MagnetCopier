@@ -13,6 +13,8 @@ struct MagnetLinkCopierApp: App {
         WindowGroup {
             ContentView()
                 .background(.regularMaterial)
+                .frame(minWidth: 400, minHeight: 400)
         }
+        .windowResizability(.contentSize)
     }
 }

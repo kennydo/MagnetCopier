@@ -7,18 +7,35 @@
 
 import SwiftUI
 
+enum TabIdentifier: Hashable {
+    case home, settings
+}
+
 struct ContentView: View {
+    @State var activeTab = TabIdentifier.home
+
     var body: some View {
-        TabView {
-            HomeView().tabItem {
-                Image(systemName: "house")
-                Text("Home")
-            }.padding(Constants.outerPadding)
-            SettingsView().tabItem {
-                Image(systemName: "gear")
-                Text("Settings")
-            }.padding(.top, Constants.outerPadding)
+        TabView(selection: $activeTab) {
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+                .tag(TabIdentifier.home)
+                .padding(Constants.outerPadding)
+
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+                .tag(TabIdentifier.settings)
+                .padding(.top, Constants.outerPadding)
         }
+        .onOpenURL(perform: { _ in
+            // Whenever we open a URL, we want the app to switch to the home tab.
+            activeTab = TabIdentifier.home
+        })
     }
 }
 

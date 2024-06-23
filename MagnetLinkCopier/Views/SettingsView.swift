@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        NavigationView {
+        NavigationSplitView {
             List {
                 NavigationLink(destination: LicenseView()) {
                     Label("License", systemImage: "doc.text")
@@ -17,7 +17,10 @@ struct SettingsView: View {
                 Link(destination: Constants.repoURL) {
                     Label("Source code", systemImage: "link")
                 }
-            }.navigationTitle("Settings")
+            }
+            .navigationTitle("Settings")
+        } detail: {
+            Text("Select from the sidebar")
         }
     }
 }

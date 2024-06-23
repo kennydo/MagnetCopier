@@ -13,11 +13,11 @@ struct ContentView: View {
             HomeView().tabItem {
                 Image(systemName: "house")
                 Text("Home")
-            }
+            }.padding(Constants.outerPadding)
             SettingsView().tabItem {
                 Image(systemName: "gear")
                 Text("Settings")
-            }
+            }.padding(.top, Constants.outerPadding)
         }
     }
 }

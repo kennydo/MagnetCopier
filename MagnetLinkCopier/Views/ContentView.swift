@@ -24,7 +24,7 @@ struct ContentView: View {
                     Text("Steps")
                         .font(.headline)
                         .fontWeight(/*@START_MENU_TOKEN@*/ .bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(/*@START_MENU_TOKEN@*/Color.gray/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.secondary)
 
                     Text("1. Tap a link that starts with \"magnet://\"")
                         .padding(5)

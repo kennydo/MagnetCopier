@@ -11,27 +11,7 @@
 		81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E482C27ABAF007D44D2 /* ContentView.swift */; };
 		81C80E4B2C27ABB0007D44D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */; };
 		81C80E4F2C27ABB0007D44D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */; };
-		81C80E592C27ABB0007D44D2 /* MagnetLinkCopierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E582C27ABB0007D44D2 /* MagnetLinkCopierTests.swift */; };
-		81C80E632C27ABB0007D44D2 /* MagnetLinkCopierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E622C27ABB0007D44D2 /* MagnetLinkCopierUITests.swift */; };
-		81C80E652C27ABB0007D44D2 /* MagnetLinkCopierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E642C27ABB0007D44D2 /* MagnetLinkCopierUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		81C80E552C27ABB0007D44D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81C80E3B2C27ABAF007D44D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81C80E422C27ABAF007D44D2;
-			remoteInfo = MagnetLinkCopier;
-		};
-		81C80E5F2C27ABB0007D44D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81C80E3B2C27ABAF007D44D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81C80E422C27ABAF007D44D2;
-			remoteInfo = MagnetLinkCopier;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnetLinkCopier.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,29 +20,10 @@
 		81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C80E4C2C27ABB0007D44D2 /* MagnetLinkCopier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagnetLinkCopier.entitlements; sourceTree = "<group>"; };
 		81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81C80E542C27ABB0007D44D2 /* MagnetLinkCopierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetLinkCopierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C80E582C27ABB0007D44D2 /* MagnetLinkCopierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLinkCopierTests.swift; sourceTree = "<group>"; };
-		81C80E5E2C27ABB0007D44D2 /* MagnetLinkCopierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetLinkCopierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C80E622C27ABB0007D44D2 /* MagnetLinkCopierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLinkCopierUITests.swift; sourceTree = "<group>"; };
-		81C80E642C27ABB0007D44D2 /* MagnetLinkCopierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLinkCopierUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81C80E402C27ABAF007D44D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81C80E512C27ABB0007D44D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81C80E5B2C27ABB0007D44D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				81C80E452C27ABAF007D44D2 /* MagnetLinkCopier */,
-				81C80E572C27ABB0007D44D2 /* MagnetLinkCopierTests */,
-				81C80E612C27ABB0007D44D2 /* MagnetLinkCopierUITests */,
 				81C80E442C27ABAF007D44D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */,
-				81C80E542C27ABB0007D44D2 /* MagnetLinkCopierTests.xctest */,
-				81C80E5E2C27ABB0007D44D2 /* MagnetLinkCopierUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,23 +69,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		81C80E572C27ABB0007D44D2 /* MagnetLinkCopierTests */ = {
-			isa = PBXGroup;
-			children = (
-				81C80E582C27ABB0007D44D2 /* MagnetLinkCopierTests.swift */,
-			);
-			path = MagnetLinkCopierTests;
-			sourceTree = "<group>";
-		};
-		81C80E612C27ABB0007D44D2 /* MagnetLinkCopierUITests */ = {
-			isa = PBXGroup;
-			children = (
-				81C80E622C27ABB0007D44D2 /* MagnetLinkCopierUITests.swift */,
-				81C80E642C27ABB0007D44D2 /* MagnetLinkCopierUITestsLaunchTests.swift */,
-			);
-			path = MagnetLinkCopierUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,42 +89,6 @@
 			productReference = 81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81C80E532C27ABB0007D44D2 /* MagnetLinkCopierTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81C80E6B2C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetLinkCopierTests" */;
-			buildPhases = (
-				81C80E502C27ABB0007D44D2 /* Sources */,
-				81C80E512C27ABB0007D44D2 /* Frameworks */,
-				81C80E522C27ABB0007D44D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				81C80E562C27ABB0007D44D2 /* PBXTargetDependency */,
-			);
-			name = MagnetLinkCopierTests;
-			productName = MagnetLinkCopierTests;
-			productReference = 81C80E542C27ABB0007D44D2 /* MagnetLinkCopierTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		81C80E5D2C27ABB0007D44D2 /* MagnetLinkCopierUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81C80E6E2C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetLinkCopierUITests" */;
-			buildPhases = (
-				81C80E5A2C27ABB0007D44D2 /* Sources */,
-				81C80E5B2C27ABB0007D44D2 /* Frameworks */,
-				81C80E5C2C27ABB0007D44D2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				81C80E602C27ABB0007D44D2 /* PBXTargetDependency */,
-			);
-			name = MagnetLinkCopierUITests;
-			productName = MagnetLinkCopierUITests;
-			productReference = 81C80E5E2C27ABB0007D44D2 /* MagnetLinkCopierUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,14 +101,6 @@
 				TargetAttributes = {
 					81C80E422C27ABAF007D44D2 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					81C80E532C27ABB0007D44D2 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 81C80E422C27ABAF007D44D2;
-					};
-					81C80E5D2C27ABB0007D44D2 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 81C80E422C27ABAF007D44D2;
 					};
 				};
 			};
@@ -222,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				81C80E422C27ABAF007D44D2 /* MagnetLinkCopier */,
-				81C80E532C27ABB0007D44D2 /* MagnetLinkCopierTests */,
-				81C80E5D2C27ABB0007D44D2 /* MagnetLinkCopierUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +129,6 @@
 			files = (
 				81C80E4F2C27ABB0007D44D2 /* Preview Assets.xcassets in Resources */,
 				81C80E4B2C27ABB0007D44D2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81C80E522C27ABB0007D44D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81C80E5C2C27ABB0007D44D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81C80E502C27ABB0007D44D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81C80E592C27ABB0007D44D2 /* MagnetLinkCopierTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81C80E5A2C27ABB0007D44D2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81C80E652C27ABB0007D44D2 /* MagnetLinkCopierUITestsLaunchTests.swift in Sources */,
-				81C80E632C27ABB0007D44D2 /* MagnetLinkCopierUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		81C80E562C27ABB0007D44D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81C80E422C27ABAF007D44D2 /* MagnetLinkCopier */;
-			targetProxy = 81C80E552C27ABB0007D44D2 /* PBXContainerItemProxy */;
-		};
-		81C80E602C27ABB0007D44D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81C80E422C27ABAF007D44D2 /* MagnetLinkCopier */;
-			targetProxy = 81C80E5F2C27ABB0007D44D2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		81C80E662C27ABB0007D44D2 /* Debug */ = {
@@ -424,6 +274,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Link Copier";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,10 +294,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -462,6 +315,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Link Copier";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,100 +335,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		81C80E6C2C27ABB0007D44D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8UG9T736T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopierTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagnetLinkCopier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagnetLinkCopier";
-			};
-			name = Debug;
-		};
-		81C80E6D2C27ABB0007D44D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8UG9T736T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopierTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagnetLinkCopier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagnetLinkCopier";
-			};
-			name = Release;
-		};
-		81C80E6F2C27ABB0007D44D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8UG9T736T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopierUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MagnetLinkCopier;
-			};
-			name = Debug;
-		};
-		81C80E702C27ABB0007D44D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D8UG9T736T;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopierUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MagnetLinkCopier;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -594,24 +360,6 @@
 			buildConfigurations = (
 				81C80E692C27ABB0007D44D2 /* Debug */,
 				81C80E6A2C27ABB0007D44D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81C80E6B2C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetLinkCopierTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81C80E6C2C27ABB0007D44D2 /* Debug */,
-				81C80E6D2C27ABB0007D44D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81C80E6E2C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetLinkCopierUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81C80E6F2C27ABB0007D44D2 /* Debug */,
-				81C80E702C27ABB0007D44D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

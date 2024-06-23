@@ -52,8 +52,8 @@
 		81C80E452C27ABAF007D44D2 /* MagnetLinkCopier */ = {
 			isa = PBXGroup;
 			children = (
+				81C80E722C27AED7007D44D2 /* Views */,
 				81C80E462C27ABAF007D44D2 /* MagnetLinkCopierApp.swift */,
-				81C80E482C27ABAF007D44D2 /* ContentView.swift */,
 				81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */,
 				81C80E4C2C27ABB0007D44D2 /* MagnetLinkCopier.entitlements */,
 				81C80E4D2C27ABB0007D44D2 /* Preview Content */,
@@ -67,6 +67,14 @@
 				81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81C80E722C27AED7007D44D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81C80E482C27ABAF007D44D2 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

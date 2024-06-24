@@ -1,9 +1,7 @@
 import SwiftUI
 
 struct LinkDetailView: View {
-    var link: URL
-
-    @State var hasCopiedToClipboard = false
+    var link: MagnetLink
 
     var body: some View {
         VStack {
@@ -12,17 +10,17 @@ struct LinkDetailView: View {
                 HStack {
                     Text("Magnet Link").fontWeight(.bold)
                     Spacer()
-                    ShareLink(item: link.absoluteString)
+                    ShareLink(item: link.url.absoluteString)
                         .labelStyle(.iconOnly)
                 }
             ) {
                 ScrollView(.vertical) {
-                    Text(link.absoluteString)
+                    Text(link.url.absoluteString)
                         .foregroundColor(.secondary)
                 }
 
                 Button(action: onCopyToClipboardPressed) {
-                    if hasCopiedToClipboard {
+                    if link.hasBeenCopiedToClipboard {
                         Label("Copied", systemImage: "checkmark")
                     } else {
                         Label("Copy to Clipboard", systemImage: "doc.on.doc")
@@ -36,14 +34,14 @@ struct LinkDetailView: View {
     }
 
     func onCopyToClipboardPressed() {
-        UIPasteboard.general.string = link.absoluteString
+        UIPasteboard.general.string = link.url.absoluteString
         withAnimation {
-            hasCopiedToClipboard = true
+            link.hasBeenCopiedToClipboard = true
         }
     }
 }
 
 #Preview {
-    LinkDetailView(link: URL(
-        string: "magnet://" + String(repeating: "lorem-ipsum-dolor-sit-amet-consectetur-elit-sed-fringilla-lectus-at-euismod-consequat-erat-nibh-pharetra-est-mollis-ligula-ex-a-eros", count: 3))!)
+    LinkDetailView(link: MagnetLink(url: URL(
+        string: "magnet://" + String(repeating: "lorem-ipsum-dolor-sit-amet-consectetur-elit-sed-fringilla-lectus-at-euismod-consequat-erat-nibh-pharetra-est-mollis-ligula-ex-a-eros", count: 3))!))
 }

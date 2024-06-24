@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810940842C29360600F19F91 /* MagnetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810940832C29360600F19F91 /* MagnetLink.swift */; };
 		816016EA2C27EB2000F1CB01 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 816016E92C27EB2000F1CB01 /* LICENSE */; };
 		816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816016EC2C27F78000F1CB01 /* LinkDetailView.swift */; };
 		818C37062C27D0F70035282D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37042C27D0F70035282D /* Constants.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		810940832C29360600F19F91 /* MagnetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLink.swift; sourceTree = "<group>"; };
 		816016E92C27EB2000F1CB01 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		816016EB2C27F57C00F1CB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		816016EC2C27F78000F1CB01 /* LinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDetailView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				818C37042C27D0F70035282D /* Constants.swift */,
 				818C37112C27DFDA0035282D /* License.swift */,
+				810940832C29360600F19F91 /* MagnetLink.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				818C370C2C27D7370035282D /* AboutView.swift in Sources */,
 				81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */,
 				816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */,
+				810940842C29360600F19F91 /* MagnetLink.swift in Sources */,
 				818C370A2C27D69D0035282D /* HomeView.swift in Sources */,
 				81C80E472C27ABAF007D44D2 /* MagnetCopierApp.swift in Sources */,
 				818C370E2C27DE150035282D /* LicenseView.swift in Sources */,

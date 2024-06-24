@@ -43,7 +43,7 @@ struct HomeView: View {
             .navigationDestination(for: Route.self) {
                 route in switch route {
                 case let .linkDetail(url):
-                    LinkDetailView(link: url)
+                    LinkDetailView(link: MagnetLink(url: url))
                 }
             }
         }.onOpenURL(perform: { url in

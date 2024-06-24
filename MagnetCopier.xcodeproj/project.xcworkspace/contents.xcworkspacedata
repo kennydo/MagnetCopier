@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/kedo/Workspace/github/kennydo/MagnetLinkCopier/MagnetCopier.xcodeproj">
    </FileRef>
 </Workspace>

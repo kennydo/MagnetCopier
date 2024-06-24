@@ -8,7 +8,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>do.kenny.MagnetLinkCopier</string>
+			<string>do.kenny.MagnetCopier</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>magnet</string>

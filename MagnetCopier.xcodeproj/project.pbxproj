@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		816016EA2C27EB2000F1CB01 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 816016E92C27EB2000F1CB01 /* LICENSE */; };
 		816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816016EC2C27F78000F1CB01 /* LinkDetailView.swift */; };
-		816016F12C28090200F1CB01 /* MagnetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816016F02C28090200F1CB01 /* MagnetLink.swift */; };
 		818C37062C27D0F70035282D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37042C27D0F70035282D /* Constants.swift */; };
 		818C370A2C27D69D0035282D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37092C27D69D0035282D /* HomeView.swift */; };
 		818C370C2C27D7370035282D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C370B2C27D7370035282D /* AboutView.swift */; };
 		818C370E2C27DE150035282D /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C370D2C27DE150035282D /* LicenseView.swift */; };
 		818C37122C27DFDA0035282D /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37112C27DFDA0035282D /* License.swift */; };
-		81C80E472C27ABAF007D44D2 /* MagnetLinkCopierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E462C27ABAF007D44D2 /* MagnetLinkCopierApp.swift */; };
+		81C80E472C27ABAF007D44D2 /* MagnetCopierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E462C27ABAF007D44D2 /* MagnetCopierApp.swift */; };
 		81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E482C27ABAF007D44D2 /* ContentView.swift */; };
 		81C80E4B2C27ABB0007D44D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */; };
 		81C80E4F2C27ABB0007D44D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */; };
@@ -25,17 +24,16 @@
 		816016E92C27EB2000F1CB01 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		816016EB2C27F57C00F1CB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		816016EC2C27F78000F1CB01 /* LinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDetailView.swift; sourceTree = "<group>"; };
-		816016F02C28090200F1CB01 /* MagnetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLink.swift; sourceTree = "<group>"; };
 		818C37042C27D0F70035282D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		818C37092C27D69D0035282D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		818C370B2C27D7370035282D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		818C370D2C27DE150035282D /* LicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
 		818C37112C27DFDA0035282D /* License.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = License.swift; sourceTree = "<group>"; };
-		81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnetLinkCopier.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C80E462C27ABAF007D44D2 /* MagnetLinkCopierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLinkCopierApp.swift; sourceTree = "<group>"; };
+		81C80E432C27ABAF007D44D2 /* MagnetCopier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnetCopier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C80E462C27ABAF007D44D2 /* MagnetCopierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetCopierApp.swift; sourceTree = "<group>"; };
 		81C80E482C27ABAF007D44D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81C80E4C2C27ABB0007D44D2 /* MagnetLinkCopier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagnetLinkCopier.entitlements; sourceTree = "<group>"; };
+		81C80E4C2C27ABB0007D44D2 /* MagnetCopier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagnetCopier.entitlements; sourceTree = "<group>"; };
 		81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +53,6 @@
 			children = (
 				818C37042C27D0F70035282D /* Constants.swift */,
 				818C37112C27DFDA0035282D /* License.swift */,
-				816016F02C28090200F1CB01 /* MagnetLink.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -63,7 +60,7 @@
 		81C80E3A2C27ABAF007D44D2 = {
 			isa = PBXGroup;
 			children = (
-				81C80E452C27ABAF007D44D2 /* MagnetLinkCopier */,
+				81C80E452C27ABAF007D44D2 /* MagnetCopier */,
 				81C80E442C27ABAF007D44D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,24 +68,24 @@
 		81C80E442C27ABAF007D44D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */,
+				81C80E432C27ABAF007D44D2 /* MagnetCopier.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81C80E452C27ABAF007D44D2 /* MagnetLinkCopier */ = {
+		81C80E452C27ABAF007D44D2 /* MagnetCopier */ = {
 			isa = PBXGroup;
 			children = (
 				816016EB2C27F57C00F1CB01 /* Info.plist */,
 				816016E92C27EB2000F1CB01 /* LICENSE */,
 				818C37052C27D0F70035282D /* Model */,
 				81C80E722C27AED7007D44D2 /* Views */,
-				81C80E462C27ABAF007D44D2 /* MagnetLinkCopierApp.swift */,
+				81C80E462C27ABAF007D44D2 /* MagnetCopierApp.swift */,
 				81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */,
-				81C80E4C2C27ABB0007D44D2 /* MagnetLinkCopier.entitlements */,
+				81C80E4C2C27ABB0007D44D2 /* MagnetCopier.entitlements */,
 				81C80E4D2C27ABB0007D44D2 /* Preview Content */,
 			);
-			path = MagnetLinkCopier;
+			path = MagnetCopier;
 			sourceTree = "<group>";
 		};
 		81C80E4D2C27ABB0007D44D2 /* Preview Content */ = {
@@ -114,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81C80E422C27ABAF007D44D2 /* MagnetLinkCopier */ = {
+		81C80E422C27ABAF007D44D2 /* MagnetCopier */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81C80E682C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetLinkCopier" */;
+			buildConfigurationList = 81C80E682C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetCopier" */;
 			buildPhases = (
 				81C80E3F2C27ABAF007D44D2 /* Sources */,
 				81C80E402C27ABAF007D44D2 /* Frameworks */,
@@ -126,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = MagnetLinkCopier;
-			productName = MagnetLinkCopier;
-			productReference = 81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */;
+			name = MagnetCopier;
+			productName = MagnetCopier;
+			productReference = 81C80E432C27ABAF007D44D2 /* MagnetCopier.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81C80E3E2C27ABAF007D44D2 /* Build configuration list for PBXProject "MagnetLinkCopier" */;
+			buildConfigurationList = 81C80E3E2C27ABAF007D44D2 /* Build configuration list for PBXProject "MagnetCopier" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81C80E422C27ABAF007D44D2 /* MagnetLinkCopier */,
+				81C80E422C27ABAF007D44D2 /* MagnetCopier */,
 			);
 		};
 /* End PBXProject section */
@@ -186,9 +183,8 @@
 				818C370C2C27D7370035282D /* AboutView.swift in Sources */,
 				81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */,
 				816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */,
-				816016F12C28090200F1CB01 /* MagnetLink.swift in Sources */,
 				818C370A2C27D69D0035282D /* HomeView.swift in Sources */,
-				81C80E472C27ABAF007D44D2 /* MagnetLinkCopierApp.swift in Sources */,
+				81C80E472C27ABAF007D44D2 /* MagnetCopierApp.swift in Sources */,
 				818C370E2C27DE150035282D /* LicenseView.swift in Sources */,
 				818C37062C27D0F70035282D /* Constants.swift in Sources */,
 			);
@@ -316,16 +312,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MagnetLinkCopier/MagnetLinkCopier.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MagnetCopier/MagnetCopier.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MagnetLinkCopier/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MagnetCopier/Preview Content\"";
 				DEVELOPMENT_TEAM = D8UG9T736T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MagnetLinkCopier/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Link Copier";
+				INFOPLIST_FILE = MagnetCopier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Copier";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -342,7 +338,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopier;
+				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetCopier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -358,16 +354,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MagnetLinkCopier/MagnetLinkCopier.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MagnetCopier/MagnetCopier.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MagnetLinkCopier/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MagnetCopier/Preview Content\"";
 				DEVELOPMENT_TEAM = D8UG9T736T;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MagnetLinkCopier/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Link Copier";
+				INFOPLIST_FILE = MagnetCopier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Magnet Copier";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -384,7 +380,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetLinkCopier;
+				PRODUCT_BUNDLE_IDENTIFIER = do.kenny.MagnetCopier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
@@ -398,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81C80E3E2C27ABAF007D44D2 /* Build configuration list for PBXProject "MagnetLinkCopier" */ = {
+		81C80E3E2C27ABAF007D44D2 /* Build configuration list for PBXProject "MagnetCopier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C80E662C27ABB0007D44D2 /* Debug */,
@@ -407,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81C80E682C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetLinkCopier" */ = {
+		81C80E682C27ABB0007D44D2 /* Build configuration list for PBXNativeTarget "MagnetCopier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C80E692C27ABB0007D44D2 /* Debug */,

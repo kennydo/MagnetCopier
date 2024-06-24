@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  MagnetLinkCopier
-//
-//  Created by Kenny Do on 6/22/24.
-//
-
 import SwiftUI
 
 enum TabIdentifier: Hashable {

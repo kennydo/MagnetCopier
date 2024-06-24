@@ -39,7 +39,7 @@ struct LinkDetailView: View {
                 .controlSize(.large)
             }
         }
-        .padding()
+        .padding([.leading, .trailing, .bottom], Constants.outerPadding)
     }
 
     func onCopyToClipboardPressed() {

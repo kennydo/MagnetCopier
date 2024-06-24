@@ -9,4 +9,12 @@ import Foundation
 
 enum Constants {
     static var repoURL = URL(string: "https://github.com/kennydo/MagnetLinkCopier")!
+
+    static var outerPadding: Double {
+        #if os(visionOS)
+            32
+        #else
+            16
+        #endif
+    }
 }

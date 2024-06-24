@@ -46,7 +46,7 @@ struct HomeView: View {
 
                 Spacer()
             }
-            .padding()
+            .padding(Constants.outerPadding)
             .navigationDestination(for: Route.self) {
                 route in switch route {
                 case let .linkDetail(url):

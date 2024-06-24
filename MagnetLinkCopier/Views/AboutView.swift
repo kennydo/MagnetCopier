@@ -27,6 +27,7 @@ struct AboutView: View {
                     Link(destination: Constants.repoURL) {
                         Label("Source code", systemImage: "link")
                     }
+                    .buttonStyle(.borderedProminent)
                     .padding()
                 }
                 Spacer()

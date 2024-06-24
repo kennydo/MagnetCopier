@@ -10,6 +10,8 @@ import SwiftUI
 struct LinkDetailView: View {
     var link: URL
 
+    @State var hasCopiedToClipboard = false
+
     var body: some View {
         VStack {
             GroupBox(
@@ -27,7 +29,11 @@ struct LinkDetailView: View {
                 }
 
                 Button(action: onCopyToClipboardPressed) {
-                    Label("Copy to Clipboard", systemImage: "doc.on.doc")
+                    if hasCopiedToClipboard {
+                        Label("Copied", systemImage: "checkmark")
+                    } else {
+                        Label("Copy to Clipboard", systemImage: "doc.on.doc")
+                    }
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
@@ -38,6 +44,9 @@ struct LinkDetailView: View {
 
     func onCopyToClipboardPressed() {
         UIPasteboard.general.string = link.absoluteString
+        withAnimation {
+            hasCopiedToClipboard = true
+        }
     }
 }
 

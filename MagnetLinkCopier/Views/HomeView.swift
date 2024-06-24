@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-enum Route: Hashable {
-    case linkDetail(URL)
-}
-
 struct HomeView: View {
+    enum Route: Hashable {
+        case linkDetail(URL)
+    }
+
     @State private var path: [Route] = []
 
     var body: some View {
         NavigationStack(path: $path) {
             VStack(alignment: .leading) {
-                Text("Magnet Link Copier")
+                Text(Constants.appName)
                     .font(.title)
 
                 GroupBox(label:

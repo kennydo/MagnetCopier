@@ -23,10 +23,10 @@ struct ContentView: View {
                 }
                 .tag(TabIdentifier.home)
 
-            SettingsView()
+            AboutView()
                 .tabItem {
-                    Image(systemName: "gear")
-                    Text("Settings")
+                    Image(systemName: "questionmark.circle")
+                    Text("About")
                 }
                 .tag(TabIdentifier.settings)
         }

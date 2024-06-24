@@ -12,7 +12,7 @@
 		816016F12C28090200F1CB01 /* MagnetLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816016F02C28090200F1CB01 /* MagnetLink.swift */; };
 		818C37062C27D0F70035282D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37042C27D0F70035282D /* Constants.swift */; };
 		818C370A2C27D69D0035282D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37092C27D69D0035282D /* HomeView.swift */; };
-		818C370C2C27D7370035282D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C370B2C27D7370035282D /* SettingsView.swift */; };
+		818C370C2C27D7370035282D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C370B2C27D7370035282D /* AboutView.swift */; };
 		818C370E2C27DE150035282D /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C370D2C27DE150035282D /* LicenseView.swift */; };
 		818C37122C27DFDA0035282D /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C37112C27DFDA0035282D /* License.swift */; };
 		81C80E472C27ABAF007D44D2 /* MagnetLinkCopierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E462C27ABAF007D44D2 /* MagnetLinkCopierApp.swift */; };
@@ -28,7 +28,7 @@
 		816016F02C28090200F1CB01 /* MagnetLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetLink.swift; sourceTree = "<group>"; };
 		818C37042C27D0F70035282D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		818C37092C27D69D0035282D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		818C370B2C27D7370035282D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		818C370B2C27D7370035282D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		818C370D2C27DE150035282D /* LicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
 		818C37112C27DFDA0035282D /* License.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = License.swift; sourceTree = "<group>"; };
 		81C80E432C27ABAF007D44D2 /* MagnetLinkCopier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnetLinkCopier.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,7 @@
 			children = (
 				81C80E482C27ABAF007D44D2 /* ContentView.swift */,
 				818C37092C27D69D0035282D /* HomeView.swift */,
-				818C370B2C27D7370035282D /* SettingsView.swift */,
+				818C370B2C27D7370035282D /* AboutView.swift */,
 				818C370D2C27DE150035282D /* LicenseView.swift */,
 				816016EC2C27F78000F1CB01 /* LinkDetailView.swift */,
 			);
@@ -183,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				818C37122C27DFDA0035282D /* License.swift in Sources */,
-				818C370C2C27D7370035282D /* SettingsView.swift in Sources */,
+				818C370C2C27D7370035282D /* AboutView.swift in Sources */,
 				81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */,
 				816016ED2C27F78000F1CB01 /* LinkDetailView.swift in Sources */,
 				816016F12C28090200F1CB01 /* MagnetLink.swift in Sources */,

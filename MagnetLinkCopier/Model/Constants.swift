@@ -8,6 +8,8 @@
 import Foundation
 
 enum Constants {
+    static var appName = "Magnet Link Copier"
+
     static var repoURL = URL(string: "https://github.com/kennydo/MagnetLinkCopier")!
 
     static var outerPadding: Double {

@@ -20,11 +20,14 @@ struct LinkDetailView: View {
                 }
 
                 Button(action: onCopyToClipboardPressed) {
-                    if link.hasBeenCopiedToClipboard {
-                        Label("Copied", systemImage: "checkmark")
-                    } else {
-                        Label("Copy to Clipboard", systemImage: "doc.on.doc")
-                    }
+                    Label("Copy to Clipboard", systemImage: "doc.on.doc")
+                        .opacity(link.hasBeenCopiedToClipboard ? 0 : 1)
+                        .overlay {
+                            // We use an overlay so that the size of the button doesn't change.
+                            if link.hasBeenCopiedToClipboard {
+                                Label("Copied", systemImage: "checkmark")
+                            }
+                        }
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)

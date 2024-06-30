@@ -11,36 +11,28 @@ struct AboutView: View {
                 Text(Constants.appName).font(/*@START_MENU_TOKEN@*/ .title/*@END_MENU_TOKEN@*/)
                 Text("\(Constants.appName) is a free and open source utility to handle magnet links.")
 
-                HStack {
+                VStack {
                     NavigationLink(destination: LicenseView()) {
                         Label("License", systemImage: "doc.text")
                     }
-                    .padding()
 
                     Link(destination: Constants.repoURL) {
                         Label("Source code", systemImage: "link")
                     }
                     .buttonStyle(.bordered)
-                    .padding()
+
+                    Link(destination: Constants.privacyPolicyURL) {
+                        Label("Privacy policy", systemImage: "link")
+                    }
+                    .buttonStyle(.bordered)
                 }
+                .padding()
+
                 Spacer()
             }
             .padding(Constants.outerPadding)
         }
         .navigationTitle("About")
-        /*
-         NavigationSplitView {
-             List {
-                 NavigationLink(destination: LicenseView()) {
-                     Label("License", systemImage: "doc.text")
-                 }
-
-             }
-             .navigationTitle("Settings")
-         } detail: {
-             Text("Select from the sidebar")
-         }
-          */
     }
 }
 

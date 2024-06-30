@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct LinkDetailView: View {
+    let toastDuration = DispatchTimeInterval.seconds(3)
+    @State var showToast = false
     var link: MagnetLink
 
     var body: some View {
@@ -21,26 +23,20 @@ struct LinkDetailView: View {
 
                 Button(action: onCopyToClipboardPressed) {
                     Label("Copy to Clipboard", systemImage: "doc.on.doc")
-                        .opacity(link.hasBeenCopiedToClipboard ? 0 : 1)
-                        .overlay {
-                            // We use an overlay so that the size of the button doesn't change.
-                            if link.hasBeenCopiedToClipboard {
-                                Label("Copied", systemImage: "checkmark")
-                            }
-                        }
                 }
                 .buttonStyle(.borderedProminent)
                 .controlSize(.large)
             }
         }
         .padding([.leading, .trailing, .bottom], Constants.outerPadding)
+        .toast(showToast: $showToast, dismissAfter: toastDuration) {
+            Toast(title: "Copied!")
+        }
     }
 
     func onCopyToClipboardPressed() {
         UIPasteboard.general.string = link.url.absoluteString
-        withAnimation {
-            link.hasBeenCopiedToClipboard = true
-        }
+        showToast = true
     }
 }
 

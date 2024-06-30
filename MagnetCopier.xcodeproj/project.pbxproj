@@ -19,6 +19,7 @@
 		81C80E492C27ABAF007D44D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C80E482C27ABAF007D44D2 /* ContentView.swift */; };
 		81C80E4B2C27ABB0007D44D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */; };
 		81C80E4F2C27ABB0007D44D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */; };
+		81EEF12A2C30F12800E8EC66 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEF1292C30F12800E8EC66 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		81C80E4A2C27ABB0007D44D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C80E4C2C27ABB0007D44D2 /* MagnetCopier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagnetCopier.entitlements; sourceTree = "<group>"; };
 		81C80E4E2C27ABB0007D44D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81EEF1292C30F12800E8EC66 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				818C370B2C27D7370035282D /* AboutView.swift */,
 				818C370D2C27DE150035282D /* LicenseView.swift */,
 				816016EC2C27F78000F1CB01 /* LinkDetailView.swift */,
+				81EEF1292C30F12800E8EC66 /* Toast.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				810940842C29360600F19F91 /* MagnetLink.swift in Sources */,
 				818C370A2C27D69D0035282D /* HomeView.swift in Sources */,
 				81C80E472C27ABAF007D44D2 /* MagnetCopierApp.swift in Sources */,
+				81EEF12A2C30F12800E8EC66 /* Toast.swift in Sources */,
 				818C370E2C27DE150035282D /* LicenseView.swift in Sources */,
 				818C37062C27D0F70035282D /* Constants.swift in Sources */,
 			);

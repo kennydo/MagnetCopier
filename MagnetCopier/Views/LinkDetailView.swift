@@ -2,8 +2,10 @@ import SwiftUI
 
 struct LinkDetailView: View {
     let toastDuration = DispatchTimeInterval.seconds(3)
+
     @State var showToast = false
-    var link: MagnetLink
+
+    var url: URL
 
     var body: some View {
         VStack {
@@ -12,12 +14,12 @@ struct LinkDetailView: View {
                 HStack {
                     Text("Magnet Link").fontWeight(.bold)
                     Spacer()
-                    ShareLink(item: link.url.absoluteString)
+                    ShareLink(item: url.absoluteString)
                         .labelStyle(.iconOnly)
                 }
             ) {
                 ScrollView(.vertical) {
-                    Text(link.url.absoluteString)
+                    Text(url.absoluteString)
                         .foregroundColor(.secondary)
                 }
 
@@ -35,12 +37,12 @@ struct LinkDetailView: View {
     }
 
     func onCopyToClipboardPressed() {
-        UIPasteboard.general.string = link.url.absoluteString
+        UIPasteboard.general.string = url.absoluteString
         showToast = true
     }
 }
 
 #Preview {
-    LinkDetailView(link: MagnetLink(url: URL(
-        string: "magnet://" + String(repeating: "lorem-ipsum-dolor-sit-amet-consectetur-elit-sed-fringilla-lectus-at-euismod-consequat-erat-nibh-pharetra-est-mollis-ligula-ex-a-eros", count: 3))!))
+    LinkDetailView(url: URL(
+        string: "magnet://" + String(repeating: "lorem-ipsum-dolor-sit-amet-consectetur-elit-sed-fringilla-lectus-at-euismod-consequat-erat-nibh-pharetra-est-mollis-ligula-ex-a-eros", count: 3))!)
 }

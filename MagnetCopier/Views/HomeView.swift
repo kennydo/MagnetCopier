@@ -1,9 +1,13 @@
 import SwiftUI
 
 struct HomeView: View {
+    let toastDuration = DispatchTimeInterval.seconds(3)
+
     enum Route: Hashable {
         case linkDetail(URL)
     }
+
+    @State var showCopiedToast = false
 
     @State private var path: [Route] = []
 
@@ -43,9 +47,11 @@ struct HomeView: View {
             .navigationDestination(for: Route.self) {
                 route in switch route {
                 case let .linkDetail(url):
-                    LinkDetailView(url: url)
+                    LinkDetailView(showCopiedToast: $showCopiedToast, url: url)
                 }
             }
+        }.toast(showToast: $showCopiedToast, dismissAfter: toastDuration) {
+            Toast(title: "Copied!")
         }.onOpenURL(perform: { url in
             // We want to cap the navigation stack at 1 element deep.
             path = [Route.linkDetail(url)]

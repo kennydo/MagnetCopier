@@ -1,9 +1,7 @@
 import SwiftUI
 
 struct LinkDetailView: View {
-    let toastDuration = DispatchTimeInterval.seconds(3)
-
-    @State var showToast = false
+    @Binding var showCopiedToast: Bool
 
     var url: URL
 
@@ -31,18 +29,20 @@ struct LinkDetailView: View {
             }
         }
         .padding([.leading, .trailing, .bottom], Constants.outerPadding)
-        .toast(showToast: $showToast, dismissAfter: toastDuration) {
-            Toast(title: "Copied!")
-        }
     }
 
     func onCopyToClipboardPressed() {
         UIPasteboard.general.string = url.absoluteString
-        showToast = true
+        showCopiedToast = true
     }
 }
 
 #Preview {
-    LinkDetailView(url: URL(
-        string: "magnet://" + String(repeating: "lorem-ipsum-dolor-sit-amet-consectetur-elit-sed-fringilla-lectus-at-euismod-consequat-erat-nibh-pharetra-est-mollis-ligula-ex-a-eros", count: 3))!)
+    @State var showCopiedToast = false
+
+    return LinkDetailView(
+        showCopiedToast: $showCopiedToast,
+        url: URL(
+            string: "magnet://" + String(repeating: "lorem-ipsum-dolor-sit-amet-consectetur-elit-sed-fringilla-lectus-at-euismod-consequat-erat-nibh-pharetra-est-mollis-ligula-ex-a-eros", count: 3))!
+    )
 }

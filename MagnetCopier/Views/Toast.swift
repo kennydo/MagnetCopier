@@ -42,21 +42,12 @@ public struct ToastModifier: ViewModifier {
     public func body(content: Content) -> some View {
         content.overlay(
             VStack {
-                if showToast {
-                    toastFunc()
-                        .padding(.top)
-                        .transition(.move(edge: .top).combined(with: .opacity))
-                    Spacer()
-                }
+                toastFunc()
+                    .padding(.top)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+                Spacer()
             }
             .animation(.easeInOut, value: showToast)
-            .onChange(of: showToast) { _, newState in
-                if newState {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + dismissAfter) {
-                        showToast = false
-                    }
-                }
-            }
         )
     }
 }

@@ -10,6 +10,5 @@ struct MagnetCopierApp: App {
                 .frame(minWidth: 500, minHeight: 400)
             #endif
         }
-        .windowResizability(.contentSize)
     }
 }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct LicenseView: View {
-    @ObservedObject var model = License()
+    var model = License()
 
     var body: some View {
         ScrollView {

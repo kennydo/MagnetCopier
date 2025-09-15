@@ -1,7 +1,7 @@
 import Foundation
 
-class License: ObservableObject {
-    @Published var data: String = ""
+@Observable class License {
+    var data: String = ""
 
     init() {
         load()
@@ -11,9 +11,7 @@ class License: ObservableObject {
         if let filepath = Bundle.main.path(forResource: "LICENSE", ofType: nil) {
             do {
                 let contents = try String(contentsOfFile: filepath)
-                DispatchQueue.main.async {
-                    self.data = contents
-                }
+                data = contents
             } catch let error as NSError {
                 print(error.localizedDescription)
             }

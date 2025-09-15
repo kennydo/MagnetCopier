@@ -1,10 +1,10 @@
 import Foundation
 
 enum Constants {
-    static var appName = "Magnet Copier"
+    static let appName = "Magnet Copier"
 
-    static var repoURL = URL(string: "https://github.com/kennydo/MagnetCopier")!
-    static var privacyPolicyURL = URL(string: "https://magnet-copier.kenny.do/privacy.html")!
+    static let repoURL = URL(string: "https://github.com/kennydo/MagnetCopier")!
+    static let privacyPolicyURL = URL(string: "https://magnet-copier.kenny.do/privacy.html")!
 
     static var outerPadding: Double {
         #if os(visionOS)

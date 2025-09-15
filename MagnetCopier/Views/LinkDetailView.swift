@@ -38,7 +38,7 @@ struct LinkDetailView: View {
 }
 
 #Preview {
-    @State var showCopiedToast = false
+    @Previewable @State var showCopiedToast = false
 
     return LinkDetailView(
         showCopiedToast: $showCopiedToast,

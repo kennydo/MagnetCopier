@@ -24,10 +24,14 @@ public struct Toast: View, Equatable {
             }
         }
         .padding()
-        .background(.thickMaterial)
-        .clipShape(Capsule())
-        .overlay(Capsule().stroke(Color.gray.opacity(0.2), lineWidth: 1))
-        .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 6)
+        #if os(visionOS)
+            .background(.thickMaterial)
+        #else
+            .glassEffect()
+        #endif
+            .clipShape(Capsule())
+            .overlay(Capsule().stroke(Color.gray.opacity(0.2), lineWidth: 1))
+            .shadow(color: Color.black.opacity(0.1), radius: 10, x: 0, y: 6)
     }
 }
 

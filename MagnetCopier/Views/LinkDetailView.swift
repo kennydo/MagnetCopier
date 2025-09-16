@@ -24,7 +24,11 @@ struct LinkDetailView: View {
                 Button(action: onCopyToClipboardPressed) {
                     Label("Copy to Clipboard", systemImage: "doc.on.doc")
                 }
+                #if os(visionOS)
                 .buttonStyle(.borderedProminent)
+                #else
+                .buttonStyle(.glassProminent)
+                #endif
                 .controlSize(.large)
             }
         }
